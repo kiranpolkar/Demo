@@ -1,4 +1,4 @@
-Initial Version 1 
+Initial Version 1 - Modified this line to test merge conflict with branch UpdateCodeBranch
 
 Modified content Version 2
 
