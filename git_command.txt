@@ -42,6 +42,13 @@ git restore --staged Sample.txt
 #To Skip staging and direct commit the modified file 
 git commit -a -m "Updated file to add new code"
 
+#To remove file from folder throgh Git(This file can not be restore)
+git rm "CanBeRemove.txt"
+
+#If you remove file from UI then it can be restore
+
+
+
 
 
 
