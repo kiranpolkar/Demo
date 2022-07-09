@@ -1,0 +1,44 @@
+#Specify name
+git config --global user.name "Kiran Polkar"
+
+#Specify email
+git config --global user.email kiranpolkar2812@gmail.com
+
+#Specify default branch
+git config --global init.default branch main
+
+#Go to code directory 
+cd G:\GitTutorial
+
+#Initialize this directory in git
+git init
+
+#To get repository status - list the files which are committed or yet to be commited
+git status
+=>O/P
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Sample.txt
+        git_command.txt
+nothing added to commit but untracked files present (use "git add" to track)
+
+#Adding file to Git to track the file
+git add Sample.txt
+
+#Untrack the file
+git rm --cached Sample.txt
+
+#To ignore the files from git - 1)create file with .gitignore extention 2) Open it in note pad and specify file name or extentions to ignore
+
+
+
+
+
+
+
+
+
+

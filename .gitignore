@@ -1,0 +1,2 @@
+#ignore all .jsp files
+*.jsp
